@@ -18,4 +18,4 @@
 - using Adonis command: ```adonis serve --dev```
 
 ## Author
-- JuunS (Juniardy Setiowidayoga)
+- JuunS a.k.a ( [Juniardy Setiowidayoga](https://www.linkedin.com/in/juuns99/) )
