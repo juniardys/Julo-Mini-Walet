@@ -16,3 +16,6 @@
 ## How to start
 - Using npm: ```npm start```
 - using Adonis command: ```adonis serve --dev```
+
+## Author
+- JuunS (Juniardy Setiowidayoga)
