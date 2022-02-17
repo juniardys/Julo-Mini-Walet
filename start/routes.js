@@ -16,6 +16,10 @@
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
+Route.get('/', function({response}) {
+    return response.json('Julo Mini Wallet made by Juniardy Setiowidayoga')
+})
+
 Route.group(() => {
     Route.post('init', 'WalletController.init')
 }).prefix('api/v1')
