@@ -25,7 +25,7 @@ class WalletController {
         } else {
             const customer = await Customer.find(request.input('customer_xid'))
 
-            if (customer.id) {
+            if (customer) {
                 const token = await auth.authenticator('api').generate(customer)
                 return response.status(201).json({
                     data: {
